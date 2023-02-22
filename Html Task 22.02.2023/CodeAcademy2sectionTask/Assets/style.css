@@ -1,0 +1,20 @@
+#education-fields {
+    display: flex;
+
+ 
+   
+
+
+
+}
+
+.education-section div {
+    display: flex;
+    border-style: solid;
+   border-width: 2px;
+   border-color: black;
+}
+.education-section b {
+    font-size: 30px;
+}
+
