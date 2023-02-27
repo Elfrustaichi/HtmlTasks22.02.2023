@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+.container .section-title p {
+  width: 40%;
+  margin-top: 40px;
+}
+.container .section-title h1 {
+  font-size: 35px;
+}
+.row {
+  margin-bottom: 50px;
+}
+
+.part {
+  display: flex;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.body-parts {
+  display: flex;
+  flex-wrap: wrap;
+}
+.part-text p {
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+.part-text {
+  margin-left: 50px;
+}
+
+.part-text h5 {
+  font-size: 25px;
+}
+
+.part img {
+  width: 208.06px;
+  height: 208.06px;
+}
+.part-text a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+.section-title h1::after {
+  content: "";
+  background-color: red;
+  position: absolute;
+  width: 75px;
+  height: 5px;
+  top: 100px;
+  left: 0;
+}
+.section-title {
+  position: relative;
+  
+}
+
+
+
+@media only screen and (max-width: 992px) {
+  .part {
+    width: 100%;
+  }
+}
+
+.section-title p {
+  font-size: 20px;
+}
+
+#education-profession{
+  display: flex;
+
+}
+
+
+.professions{
+  display: flex;
+}
+
+.professions img{
+  height: 75px;
+  width: 75px;
+}
+.section-body {
+  display: flex;
+}
+
+.profession-parts {
+  width: 45%;
+}
+.section-body-prof{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  
+
+}
+
+
+
+.profession-parts{
+  margin-top: 10px;
+  margin-right: 10px;
+  
+  border-style: solid;
+  border-width: 2px;
+
+  
+}
+#education-profession{
+  height: 500px;
+}
+.profession-parts h5{
+  font-size: large;
+  margin-top: 50px;
+  margin-left: 5px;
+}
+.profession-parts img{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.marketing:hover{
+  background-color: blueviolet;
+
+  transform: scale(1.2);
+
+
+
+}
+.desing:hover{
+  background-color: yellow;
+  transform: scale(1.2);
+}
+.security:hover{
+  background-color: green;
+  transform: scale(1.2);
+
+}
+.programming:hover{
+  background-color: cyan;
+  transform: scale(1.2);
+}
+.profession-parts:hover h5{
+  color: white;
+  
+
+
+}
+
